@@ -13,17 +13,6 @@ positions = [-46, -120, -146, -227, -217, 20, 53, 204, -136, -18]
 COLORS = ["red", "orange", "yellow", "green", "blue", "purple"]
 cars = []
 
-
-# for position in positions:
-#     new_car = Turtle()
-#     new_car.shape("square")
-#     new_car.color(random.choice(COLORS))
-#     new_car.shapesize(3, 1)
-#     new_car.penup()
-#     new_car.goto(300, position)
-#     cars.append(new_car)
-
-
 for color in colors:
     new_turtles = Turtle(shape="turtle")
     new_turtles.color(color)
